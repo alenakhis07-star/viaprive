@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Claude_Preview__preview_start",
+      "Bash(ffmpeg -version)",
+      "Bash(cp .claude/serve.py ./serve.py && ls -la serve.py)",
+      "mcp__Claude_in_Chrome__list_connected_browsers",
+      "Bash(grep -nE \"rgba\\\\\\(0,0,0|#0c0a09|#1[0-9a-f]{5}|#fff\\\\b|rgba\\\\\\(255,255,255|rgba\\\\\\(200,169,106|rgba\\\\\\(227,205,155|rgba\\\\\\(15,12,10|#1a1408\" assets/css/style.css)",
+      "Bash(open \"/Users/meow/Documents/viaprive/index.html\")"
+    ]
+  }
+}
