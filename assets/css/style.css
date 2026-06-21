@@ -7,7 +7,7 @@
   --paper:    #ffffff;
   --paper-2:  #f5f5f4;
   --white:    #ffffff;
-  --ink:      #0d0d0d;
+  --ink:      #000000;
   --ink-soft: #5a5a5a;
   --ink-dim:  #9a9a9a;
   --line:     rgba(0,0,0,.12);
@@ -222,7 +222,7 @@ section[id] { scroll-margin-top: 90px; }
 /* ============================================================
    CTA
    ============================================================ */
-.cta { padding: 0; }
+.cta { padding: 70px 0; }
 .cta__card { max-width: none; margin: 0; padding: 150px 50px; text-align: center; background: var(--ink); color: var(--paper); position: relative; overflow: hidden; }
 .cta__card .eyebrow { color: var(--paper); }
 .cta__card .eyebrow::before, .cta__card .eyebrow::after { background: var(--paper); }
