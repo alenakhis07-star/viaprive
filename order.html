@@ -7,49 +7,38 @@
 <meta name="description" content="Как оформить заказ в ViaPrivé: пришлите ссылку, фото или артикул — мы проверим наличие, рассчитаем стоимость и сроки, после оплаты выкупаем и организуем доставку из Европы в Россию." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" href="assets/img/logo-dark.svg">
 </head>
 <body>
 
-<div class="curtain"><img src="assets/img/logo.jpg" alt="ViaPrivé"></div>
+<div class="curtain"><span class="curtain__word">ViaPrivé</span></div>
 
 <header class="nav">
-  <a class="nav__logo" href="index.html" data-link><span class="mark">VP</span><span class="word"><b>ViaPrivé</b><small>European Buyer Service</small></span></a>
+  <a class="nav__logo" href="index.html" data-link><span class="word"><b>ViaPrivé</b><small>European Buyer Service</small></span></a>
   <nav class="nav__links">
     <a href="index.html" data-link>Главная</a>
+    <a href="about.html" data-link>О нас</a>
+    <a href="info.html" data-link>Что важно знать</a>
     <a href="order.html" class="active" data-link>Как заказать</a>
-    <a href="info.html" data-link>Информация</a>
+    <a href="contacts.html" data-link>Контакты</a>
     <a href="https://t.me/viaprive" class="nav__cta" target="_blank" rel="noopener">Telegram</a>
   </nav>
   <div class="nav__burger" aria-label="Меню"><span></span><span></span><span></span></div>
 </header>
 
-<!-- HERO компактный -->
-<section class="hero" style="min-height:78vh">
-  <div class="hero__scene">
-    <div class="hero__orb orb-1"></div>
-    <div class="hero__orb orb-2"></div>
-    <div class="hero__ring ring-1"></div>
-    <div class="hero__ring ring-2"></div>
-  </div>
+<!-- HERO -->
+<section class="hero" style="min-height:62vh">
   <div class="wrap">
     <div class="hero__inner">
       <div class="hero__copy">
         <span class="eyebrow">Оформление заказа</span>
-        <h1 style="font-size:clamp(2.6rem,6vw,5rem)">Как оформить <span class="serif-it gold">заказ</span></h1>
-        <p class="hero__lead">
-          Всё начинается с одного сообщения. Вы присылаете нужную вещь — мы берём
-          на себя поиск, проверку наличия, выкуп и доставку из Европы в Россию.
-        </p>
+        <h1>Как оформить заказ</h1>
         <div class="hero__actions">
-          <a href="#steps" class="btn btn--gold">К шагам заказа
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M6 13l6 6 6-6"/></svg>
-          </a>
+          <a href="#steps" class="btn btn--gold">Приступить</a>
         </div>
       </div>
-
     </div>
   </div>
 </section>
@@ -58,8 +47,7 @@
 <section class="section section--tight">
   <div class="wrap">
     <div class="section__head reveal">
-      <span class="eyebrow">Шаг первый</span>
-      <h2>Отправьте нам <span class="serif-it gold">товар</span></h2>
+      <h2>Отправьте информацию о товаре</h2>
       <p>Для оформления заказа пришлите любой из вариантов — этого достаточно, чтобы мы начали поиск.</p>
     </div>
     <div class="grid">
@@ -87,7 +75,7 @@
   <div class="wrap">
     <div class="section__head reveal">
       <span class="eyebrow">Процесс</span>
-      <h2>От запроса <span class="serif-it gold">до доставки</span></h2>
+      <h2>От запроса до доставки</h2>
     </div>
     <div class="steps">
       <div class="step tilt reveal" data-tilt="4" data-d="1">
@@ -142,79 +130,37 @@
   </div>
 </section>
 
-<!-- ЧТО ВАЖНО ЗНАТЬ -->
-<section class="section">
-  <div class="wrap">
-    <div class="section__head reveal">
-      <span class="eyebrow">Что важно знать</span>
-      <h2>Прозрачные <span class="serif-it gold">правила</span></h2>
-    </div>
-    <div class="notes">
-      <div class="note reveal" data-d="1">
-        <span class="note__mark">!</span>
-        <p>ViaPrivé <strong>не является интернет-магазином.</strong> Мы оказываем услугу по поиску, выкупу и организации доставки товаров из Европы по поручению клиента.</p>
-      </div>
-      <div class="note reveal" data-d="2">
-        <span class="note__mark">!</span>
-        <p>Перед выкупом мы предоставляем всю доступную информацию о товаре, однако окончательное решение о выборе <strong>модели, размера, цвета</strong> и других характеристик принимает клиент.</p>
-      </div>
-      <div class="note reveal" data-d="3">
-        <span class="note__mark">!</span>
-        <p><strong>Отмена заказа возможна до момента выкупа товара.</strong> После выкупа отмена, обмен или возврат невозможны.</p>
-      </div>
-      <div class="note reveal" data-d="4">
-        <span class="note__mark">!</span>
-        <p>Если товар не подошёл по размеру или цвету — <strong>мы поможем его пристроить.</strong> Возврат товара в итальянский магазин невозможен.</p>
-      </div>
-      <div class="note reveal" data-d="1">
-        <span class="note__mark">!</span>
-        <p>Мы не несём ответственности за брак, выявленный после получения товара.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ОФЕРТА -->
-<section class="section--tight">
-  <div class="wrap reveal">
-    <div class="callout tilt" data-tilt="3">
-      <span class="eyebrow">Важно</span>
-      <p>Оформляя заказ и осуществляя оплату, клиент подтверждает ознакомление и согласие
-        с условиями <span class="gold">Публичной оферты</span> и <span class="gold">Политикой обработки персональных данных</span>,
-        размещёнными на официальном сайте.</p>
-      <p>Перед оформлением заказа просим ознакомиться с этими документами.</p>
-    </div>
-  </div>
-</section>
-
 <!-- CTA -->
 <section class="cta">
   <div class="wrap">
-    <div class="cta__card tilt reveal" data-tilt="4">
-      <span class="eyebrow">Доступ к европейскому шопингу</span>
-      <h2>Начнём ваш заказ</h2>
-      <p>Пришлите вещь в личные сообщения — остальное мы возьмём на себя.</p>
+    <div class="cta__card reveal">
+      <span class="eyebrow">Оформление заказа</span>
+      <h2>Готовы кончать?</h2>
+      <p>Пришлите ссылку, фото или артикул — мы проверим наличие, рассчитаем стоимость и сроки, а после оплаты передадим заказ в работу.</p>
       <div class="cta__actions">
-        <a href="https://t.me/viaprive" class="btn btn--gold" target="_blank" rel="noopener">Написать в Telegram</a>
-        <a href="info.html" class="btn btn--ghost" data-link>Информация для клиентов</a>
+        <a href="#steps" class="btn btn--gold">Приступить</a>
+        <a href="https://t.me/viaprive" class="btn btn--ghost" target="_blank" rel="noopener">Написать в Telegram</a>
       </div>
     </div>
   </div>
 </section>
 
+<!-- FOOTER -->
 <footer class="footer">
   <div class="wrap">
     <div class="footer__top">
       <div class="footer__brand">
-        <img src="assets/img/logo.jpg" alt="ViaPrivé">
-        <p>Персональный шопинг и fashion sourcing в Европе. Поиск, выкуп и доставка оригинальных товаров из Италии в Россию под заказ.</p>
+        <b>ViaPrivé</b>
+        <p>Персональный шопинг и fashion sourcing в Европе. Поиск, выкуп и доставка оригинальных товаров из Европы в Россию под заказ.</p>
       </div>
       <div class="footer__cols">
         <div class="footer__col">
           <h4>Навигация</h4>
           <a href="index.html" data-link>Главная</a>
+          <a href="about.html" data-link>О нас</a>
+          <a href="info.html" data-link>Что важно знать</a>
           <a href="order.html" data-link>Как заказать</a>
-          <a href="info.html" data-link>Информация</a>
+          <a href="contacts.html" data-link>Контакты</a>
         </div>
         <div class="footer__col">
           <h4>Медиа</h4>

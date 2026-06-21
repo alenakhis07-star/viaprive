@@ -4,25 +4,27 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>ViaPrivé — персональный шопинг и fashion sourcing в Европе</title>
-<meta name="description" content="ViaPrivé — сервис персонального шопинга и fashion sourcing в Европе. Поиск, выкуп и доставка оригинальной одежды, обуви, сумок, аксессуаров, часов и парфюма из Италии в Россию под заказ." />
+<meta name="description" content="ViaPrivé — сервис персонального шопинга и fashion sourcing в Европе. Поиск, выкуп и доставка оригинальной одежды, обуви, сумок, аксессуаров, часов и парфюма из Европы в Россию под заказ." />
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="icon" href="assets/img/logo-dark.svg">
 </head>
 <body>
 
 <!-- Занавес перехода -->
-<div class="curtain"><img src="assets/img/logo.jpg" alt="ViaPrivé"></div>
+<div class="curtain"><span class="curtain__word">ViaPrivé</span></div>
 
 <!-- Навигация -->
 <header class="nav">
-  <a class="nav__logo" href="index.html" data-link><span class="mark">VP</span><span class="word"><b>ViaPrivé</b><small>European Buyer Service</small></span></a>
+  <a class="nav__logo" href="index.html" data-link><span class="word"><b>ViaPrivé</b><small>European Buyer Service</small></span></a>
   <nav class="nav__links">
     <a href="index.html" class="active" data-link>Главная</a>
+    <a href="about.html" data-link>О нас</a>
+    <a href="info.html" data-link>Что важно знать</a>
     <a href="order.html" data-link>Как заказать</a>
-    <a href="info.html" data-link>Информация</a>
+    <a href="contacts.html" data-link>Контакты</a>
     <a href="https://t.me/viaprive" class="nav__cta" target="_blank" rel="noopener">Telegram</a>
   </nav>
   <div class="nav__burger" aria-label="Меню"><span></span><span></span><span></span></div>
@@ -30,63 +32,32 @@
 
 <!-- HERO -->
 <section class="hero">
-  <div class="hero__scene">
-    <div class="hero__orb orb-1"></div>
-    <div class="hero__orb orb-2"></div>
-    <div class="hero__ring ring-1"></div>
-    <div class="hero__ring ring-2"></div>
-  </div>
-
   <div class="wrap">
     <div class="hero__inner">
       <div class="hero__copy">
-        <span class="eyebrow">European Buyer Service · Milano → Россия</span>
-        <h1>
-          Личный шопинг<br>
-          <span class="serif-it gold">в Европе</span>
-        </h1>
+        <span class="eyebrow">European Buyer Service · Europe → Russia</span>
+        <h1>Личный шопинг<br><span class="gold">в Европе</span></h1>
         <p class="hero__lead">
           ViaPrivé — сервис персонального шопинга и fashion sourcing. Находим, выкупаем
-          и доставляем оригинальные вещи европейских брендов напрямую из Италии —
-          без переплат и лишних сложностей.
+          и доставляем оригинальные вещи европейских брендов напрямую — без переплат
+          и лишних сложностей.
         </p>
         <div class="hero__actions">
-          <a href="order.html" class="btn btn--gold" data-link>
-            Как оформить заказ
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-          </a>
+          <a href="order.html" class="btn btn--gold" data-link>Как оформить заказ</a>
           <a href="https://t.me/viaprive" class="btn btn--ghost" target="_blank" rel="noopener">Написать в Telegram</a>
         </div>
       </div>
-
-      <div class="hero__card tilt" data-tilt="6">
-        <img src="assets/img/logo.jpg" alt="ViaPrivé">
-        <span class="card-tag">Personal Shopping · Italy</span>
-      </div>
     </div>
   </div>
-
-  <div class="hero__scroll">
-    <span>Листайте</span>
-    <div class="mouse"></div>
-  </div>
+  <div class="hero__scroll"><span>Листайте</span><div class="mouse"></div></div>
 </section>
 
-<!-- О СЕРВИСЕ -->
-<section class="section">
-  <div class="wrap lead-block reveal">
-    <span class="eyebrow" style="display:block;margin-bottom:26px">О сервисе</span>
-    <p>
-      Откройте для себя итальянскую моду с ViaPrivé. Мы помогаем приобретать
-      <span class="gold">оригинальные товары</span> европейских брендов напрямую
-      из Италии и других стран Европы.
-    </p>
-    <p>
-      Для наших клиентов мы осуществляем поиск, выкуп и организацию доставки одежды,
-      обуви, сумок, аксессуаров, украшений и косметики. Также мы отслеживаем
-      специальные предложения, сезонные распродажи и ограниченные коллекции.
-      Доверьтесь профессионалам — мы возьмём на себя все сложности закупок и доставки.
-    </p>
+<!-- ВИДЕО (сразу после заголовка) -->
+<section class="videoblock" style="padding:0 0 40px">
+  <div class="wrap">
+    <figure class="videoblock__frame reveal">
+      <video src="assets/video/timeline1.mp4" autoplay muted loop playsinline controls preload="auto"></video>
+    </figure>
   </div>
 </section>
 
@@ -95,7 +66,7 @@
   <div class="wrap">
     <div class="section__head reveal">
       <span class="eyebrow">Что мы привозим</span>
-      <h2>Полный гардероб <span class="serif-it gold">из Европы</span></h2>
+      <h2>Полный гардероб из Европы</h2>
       <p>Оригинальные товары топовых брендов — под индивидуальный заказ, с проверкой наличия и расчётом до выкупа.</p>
     </div>
     <div class="grid">
@@ -117,7 +88,7 @@
       <article class="card tilt reveal" data-d="4">
         <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="7"/><path d="M12 9v3l2 2M9 2h6M12 19v3"/></svg></div>
         <h3>Часы</h3>
-        <p>Швейцарские и итальянские мануфактуры под заказ.</p>
+        <p>Швейцарские и европейские мануфактуры под заказ.</p>
       </article>
       <article class="card tilt reveal" data-d="1">
         <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M10 2h4v3h-4zM9 5h6l1 4H8zM8 9h8v11H8z"/></svg></div>
@@ -146,74 +117,15 @@
 <!-- MARQUEE -->
 <div class="marquee reveal">
   <div class="marquee__track">
-    <span>Milano</span><span>·</span><span>Original</span><span>·</span><span>Personal Shopping</span><span>·</span><span>Italia</span><span>·</span><span>Fashion Sourcing</span><span>·</span><span>Europe</span><span>·</span>
-    <span>Milano</span><span>·</span><span>Original</span><span>·</span><span>Personal Shopping</span><span>·</span><span>Italia</span><span>·</span><span>Fashion Sourcing</span><span>·</span><span>Europe</span><span>·</span>
-  </div>
-</div>
-
-<!-- ПРЕИМУЩЕСТВА -->
-<section class="section">
-  <div class="wrap">
-    <div class="section__head center reveal">
-      <span class="eyebrow">Почему ViaPrivé</span>
-      <h2>Профессиональное сопровождение покупок</h2>
-      <p>Мы берём на себя поиск, проверку наличия, выкуп и логистику — вам остаётся только выбрать вещь.</p>
-    </div>
-    <div class="grid">
-      <article class="card tilt reveal" data-d="1">
-        <span class="card__num">01</span>
-        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 12l4 4 6-6M21 12l-6 6"/><circle cx="12" cy="12" r="9"/></svg></div>
-        <h3>Только оригинал</h3>
-        <p>Покупки напрямую из официальных бутиков Италии и Европы.</p>
-      </article>
-      <article class="card tilt reveal" data-d="2">
-        <span class="card__num">02</span>
-        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v4M12 18v4M4 12H2M22 12h-2"/><circle cx="12" cy="12" r="6"/><path d="M9 12l2 2 4-4"/></svg></div>
-        <h3>Без переплат</h3>
-        <p>Следим за акциями, сезонными распродажами и лимитированными коллекциями.</p>
-      </article>
-      <article class="card tilt reveal" data-d="3">
-        <span class="card__num">03</span>
-        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h13l5-5v10l-5-5M6 12v6h6"/></svg></div>
-        <h3>Под заказ</h3>
-        <p>Поиск конкретной модели, размера и цвета по вашей ссылке или фото.</p>
-      </article>
-      <article class="card tilt reveal" data-d="4">
-        <span class="card__num">04</span>
-        <div class="card__icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7h13v8H3zM16 9h3l2 3v3h-5M7 18a2 2 0 1 0 0-.1M18 18a2 2 0 1 0 0-.1"/></svg></div>
-        <h3>Доставка в Россию</h3>
-        <p>Организуем выкуп и доставку до вас под ключ.</p>
-      </article>
-    </div>
-  </div>
-</section>
-
-<!-- ВИДЕО (новое) -->
-<section class="section videoblock">
-  <div class="wrap">
-    <div class="section__head center reveal">
-      <span class="eyebrow">Lookbook</span>
-      <h2>ViaPrivé <span class="serif-it gold">в движении</span></h2>
-      <p>Свежий ролик о брендах, новинках и образах, которые мы привозим из Европы.</p>
-    </div>
-    <figure class="videoblock__frame reveal">
-      <video src="assets/video/timeline1.mp4" autoplay muted loop playsinline controls preload="auto"></video>
-    </figure>
-  </div>
-</section>
-
-<!-- MARQUEE 2 -->
-<div class="marquee marquee--alt reveal">
-  <div class="marquee__track">
-    <span>Новинки</span><span>·</span><span>Sale</span><span>·</span><span>Лимитированные коллекции</span><span>·</span><span>Под заказ</span><span>·</span><span>Доставка в Россию</span><span>·</span><span>Только оригинал</span><span>·</span>
-    <span>Новинки</span><span>·</span><span>Sale</span><span>·</span><span>Лимитированные коллекции</span><span>·</span><span>Под заказ</span><span>·</span><span>Доставка в Россию</span><span>·</span><span>Только оригинал</span><span>·</span>
+    <span>Personal Shopping</span><span>·</span><span>Original</span><span>·</span><span>Fashion Sourcing</span><span>·</span><span>Europe</span><span>·</span><span>Под заказ</span><span>·</span><span>Доставка</span><span>·</span>
+    <span>Personal Shopping</span><span>·</span><span>Original</span><span>·</span><span>Fashion Sourcing</span><span>·</span><span>Europe</span><span>·</span><span>Под заказ</span><span>·</span><span>Доставка</span><span>·</span>
   </div>
 </div>
 
 <!-- CTA -->
 <section class="cta">
   <div class="wrap">
-    <div class="cta__card tilt reveal" data-tilt="4">
+    <div class="cta__card reveal">
       <span class="eyebrow">Доступ к европейскому шопингу</span>
       <h2>Готовы оформить заказ?</h2>
       <p>Пришлите ссылку, фото или артикул — мы проверим наличие, рассчитаем стоимость и сроки. После подтверждения и оплаты заказ передаётся в работу.</p>
@@ -230,15 +142,17 @@
   <div class="wrap">
     <div class="footer__top">
       <div class="footer__brand">
-        <img src="assets/img/logo.jpg" alt="ViaPrivé">
-        <p>Персональный шопинг и fashion sourcing в Европе. Поиск, выкуп и доставка оригинальных товаров из Италии в Россию под заказ.</p>
+        <b>ViaPrivé</b>
+        <p>Персональный шопинг и fashion sourcing в Европе. Поиск, выкуп и доставка оригинальных товаров из Европы в Россию под заказ.</p>
       </div>
       <div class="footer__cols">
         <div class="footer__col">
           <h4>Навигация</h4>
           <a href="index.html" data-link>Главная</a>
+          <a href="about.html" data-link>О нас</a>
+          <a href="info.html" data-link>Что важно знать</a>
           <a href="order.html" data-link>Как заказать</a>
-          <a href="info.html" data-link>Информация</a>
+          <a href="contacts.html" data-link>Контакты</a>
         </div>
         <div class="footer__col">
           <h4>Медиа</h4>
