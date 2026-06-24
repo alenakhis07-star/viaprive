@@ -1,0 +1,16 @@
+# Системное
+.DS_Store
+**/.DS_Store
+.idea/
+.claude/
+
+# Локальные исходники/тяжёлые медиа (не публикуем)
+/Arino_poketino.mov
+/Timeline 1.mp4
+/viaprive_video.mp4
+/Заявка_*.pdf
+2026-*.jpg
+assets/video/arina.mov
+assets/video/new.mp4
+assets/img/founder.jpg
+assets/img/founder-2.jpg
