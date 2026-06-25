@@ -4,7 +4,7 @@
     {
       "name": "viaprive",
       "runtimeExecutable": "python3",
-      "runtimeArgs": ["/Users/meow/Documents/viaprive/serve.py"],
+      "runtimeArgs": ["serve.py"],
       "port": 8123
     }
   ]
